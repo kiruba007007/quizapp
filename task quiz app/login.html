@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Asap:wght@200&family=Barlow+Semi+Condensed:wght@300;400&family=Public+Sans:ital,wght@1,700&family=Righteous&family=Work+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+    <div class="container">
+        <nav> 
+            <img src="logo.png" alt="" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">INFORMATION</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <h1 class="time">QUIZ TIME</h1>
+    <div class="quiz">
+    <h1>Lets's Play!</h1>
+        <form class="dropdown">
+        <select>
+        <option value="0">Play Now</option>
+        <option value="easy.html" id="one">Easy</option>
+        <option value="medium.html" id="two">Medium</option>
+        <option value="hard.html" id="three">Hard</option>
+      </select>
+      <input type="submit" value="Start" class="Button" id="logsubmit">
+    </form>
+</div>
+    </div>
+    <script>
+        document.querySelector("form")
+        .addEventListener("submit",function(e){
+            e.preventDefault();
+            var select=this.querySelector("select");
+            if(select.value !=="0"){
+                location.href=select.value;
+            }
+        })
+    </script>
+</body>
+</html>

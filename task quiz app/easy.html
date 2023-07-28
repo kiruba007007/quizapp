@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body >
+    <div class="container">
+    <div id="timer_div">
+        <p>Time left:</p>
+        <p id="time">15</p>
+    </div> 
+    <div id="div1" ></div>
+    <div id="div2" style="display:none"></div>
+    <div id="div3" style="display:none" class="ranges"></div>
+    <div id="div4" style="display:none" class="input"></div>
+    <div id="div5" style="display:none"></div>
+    <div id="div6" style="display: none;" class="complete">
+        <h1>Quiz Completed</h1>
+        <p id="score_para"></p>
+        <div id="sad"><img src="36807-4-sad-emoji-clipart.png" alt="" class="sad"><br>
+            <span>Better Luck Next Time</span></div> 
+        <div id="happy" style="display: none;"><img src="/PngItem_5072763.png" alt="" class="happy"><br>
+            <span>Congratulations!!!</span></div><br><br>
+        <button onclick="window.location.reload()">Refresh</button>
+    </div>
+</div>
+     <script src="easy.js"></script>
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="jquery.confetti.js"></script>
+    </body>
+    </html>

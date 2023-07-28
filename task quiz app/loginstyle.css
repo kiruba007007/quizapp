@@ -1,0 +1,73 @@
+body{
+    font-family:'Righteous', cursive;
+    background-image:url(lines.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.container{
+    text-align: center;
+}
+img{
+    width: 100px;
+}
+nav{
+    display: flex;
+    left: 0;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left:40px;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: 3s color;
+}
+nav ul li a:hover{
+    color: rgb(225, 255, 0);
+}
+.quiz h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px red;
+}
+.time{
+    color: white;
+    font-size: 10vw;
+    transition: 2s all;
+}
+.time:hover{
+    -webkit-text-stroke: 2px rgb(97, 184, 195);
+    color: transparent;
+    font-family:'Courier New', Courier, monospace;
+}
+select{
+    font-family:'Righteous', cursive;
+    font-size: 23px;
+    border-radius: 9px;
+    border-color: rgb(201, 40, 237);
+    color: rgb(27, 41, 149);
+    background-color: rgb(226, 211, 141);
+    cursor: pointer;
+}
+option:hover{
+    color: rgb(24, 219, 82);
+    cursor: pointer;
+    background-color: rgb(156, 233, 235);
+}
+#logsubmit{
+    font-size: 23px;
+    border-radius: 9px;
+    border-color: white;
+    font-family:'Righteous', cursive;
+    cursor: pointer;
+    background-color: rgb(39, 31, 189);
+    color: white;
+}

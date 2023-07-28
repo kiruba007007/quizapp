@@ -1,0 +1,135 @@
+body{
+font-family:'Righteous', cursive;
+background: linear-gradient(to left,rgb(109, 235, 235),rgba(128, 20, 235, 0.653));
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+margin-top: 15%;
+}
+.container{
+   font-size: 22px;
+   color: white;
+   background: linear-gradient(to top left, rgba(109, 235, 235, 0.422),rgba(128, 20, 235, 0.434));
+   height:440px;
+   box-shadow: 20px 20px 40px rgb(70, 67, 67);
+   width: 60%;
+   padding: 10px 30px  40px ;
+   text-align: center;
+   border-radius: 20px;
+   text-shadow: 2px 1px rgb(184, 23, 69);
+}
+#timer_div{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -15px;
+}
+button{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 3px 2px 7px rgb(29, 66, 90);
+    padding: 3px 13px;
+    border: 1px solid rgb(0, 24, 0);
+    background:-moz-linear-gradient(to top left, rgb(109, 235, 235),rgb(128, 20, 235));
+    cursor: pointer;
+    margin-left: 10px;
+}
+.radbtn{
+    padding: 20px;
+    margin: 20px 5px; 
+    transform: scale(1.2);
+}
+.check{
+    padding: 10px;
+}
+#two{
+    margin-left: 22px;
+}
+#three{
+    margin-left: 12px;
+}
+#four{
+    margin-left: -3px;
+}
+.ranges{
+    margin-top: 70px;
+}
+datalist{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(240, 240, 34);
+    width: 300px;
+    margin-right: 40px;
+}
+#selector{
+    width: 240px;
+}
+#textbox{
+    font-family:'Righteous', cursive;
+    border: none;
+    border-bottom: 2px solid rgb(84, 11, 230);
+    font-size: 25px;
+    padding: 5px;
+    color: rgb(250, 248, 248);
+    margin-top: 30px;
+    height: 30px;
+    width: 230px;
+    outline: none;
+    background-color: unset;
+}
+#star1{
+    color: rgb(239, 231, 13);
+    background-color: red;
+    border: none;
+    box-shadow: none;
+    background: unset;
+    font-size: 40px;
+}
+
+.input{
+    margin-top: 60px;
+}
+.complete{
+    margin-top: 60px;
+}
+#encls{
+    margin-left: 19px;
+}
+.ch3{
+    margin-left: -15px;
+}
+.ch4{
+    margin-right: -7px;
+}
+.rad1{
+    margin-left: 5rem;
+}
+ .rad2{
+    margin-left: 29px;
+}
+.rad3{
+    margin-left: 15px;
+}
+.data3{
+    margin-right:96px;
+}
+#selector{
+    margin-right: 70px;
+}
+.tick{
+    margin-left: 70px;
+}
+#div3 h3{
+    margin-right:40px ;
+}
+.sad{
+    width: 90px;
+}
+.happy{
+    width: 90px;
+}
+.complete{
+    margin-top: -20px;
+}
